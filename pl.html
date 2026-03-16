@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>資料管線 - 資料工程</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; margin: 0; background: #f4f4f4; }
+        header { background: #e67e22; color: white; padding: 1.5rem; text-align: center; }
+        nav { background: #333; padding: 1rem; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; }
+        .container { width: 80%; margin: 2rem auto; background: white; padding: 2rem; }
+        ul { list-style-type: square; }
+        .tech-tag { background: #eee; padding: 2px 8px; border-radius: 4px; font-family: monospace; }
+    </style>
+</head>
+<body>
+    <header><h1>資料管線與 ETL 流程</h1></header>
+    <nav>
+        <a href="index.html">首頁</a>
+        <a href="pl.html">數據管線</a>
+        <a href="dp.html">數據呈現</a>
+    </nav>
+    <div class="container">
+        <h2>什麼是 Data Pipeline？</h2>
+        <p>資料管線是將數據從「來源端」移動到「目的地」的一系列自動化步驟。</p>
+        <h3>核心環節：ETL</h3>
+        <ul>
+            <li><strong>Extract (擷取):</strong> 從資料庫、API 或日誌文件中抓取原始數據。</li>
+            <li><strong>Transform (轉換):</strong> 清洗數據、去重、格式轉換及運算。</li>
+            <li><strong>Load (載入):</strong> 將處理好的數據存入資料倉庫 (Data Warehouse)。</li>
+        </ul>
+        <h3>常用技術棧</h3>
+        <p><span class="tech-tag">Python</span>, <span class="tech-tag">SQL</span>, <span class="tech-tag">Apache Airflow</span>, <span class="tech-tag">Spark</span>, <span class="tech-tag">Docker</span></p>
+    </div>
+</body>
+</html>
